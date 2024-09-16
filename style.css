@@ -7,11 +7,15 @@
     font-family: "Inter", sans-serif;
 }
 
+nav {
+    max-width: 100vw;
+}
+
 .nav__link--primary {
     background-color: rgb(100 21 255);
     color: white;
-    border-radius: 6%;
-    padding: 4px 8px;
+    border-radius: 12%;
+    padding: 4px 9px;
 }
 
 .nav__links {
@@ -19,5 +23,18 @@
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
-  text-decoration: none;
+  color: #242424;
+}
+
+.nav__link {
+    text-decoration: none;
+    padding: 6px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.purple{ 
+    color: rgb(100 21 255);
 }
