@@ -94,7 +94,7 @@ ul {
 }
 
 .intro__search{
-    padding: 16px;
+    padding: 24px;
     border-radius: 30px;
     border: 1px solid #797171;    
     max-width: 465px;
@@ -106,11 +106,12 @@ ul {
     border-radius: 30px;
     padding: 16px 32px;
     font-size: 16px;
+    margin-left: 76px;
 }
  
 .email__input {
     border: none;
-    font-size: 24px;
+    font-size: 16px;
     color: rgba(149, 143, 143, 0.361);
 }
 
