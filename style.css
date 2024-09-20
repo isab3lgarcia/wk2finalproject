@@ -13,6 +13,11 @@ a {
     font-weight: 600;
 }
 
+.btn {
+    background-color: rgb(100 21 255);
+    color: white;
+    border-radius: 30px;
+}
 
 /* NAVIGATION  BAR */
 
@@ -105,9 +110,6 @@ ul {
     float: inline-start; 
 }
 .btn__intro {
-    background-color: rgb(100 21 255);
-    color: white;
-    border-radius: 30px;
     padding: 16px 32px;
     font-size: 16px;
     margin-left: 76px;
