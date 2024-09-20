@@ -145,7 +145,51 @@ ul {
 
 
 /* FEATURES */
+#features {
+    /* max-width: fit-content; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20;
+    
+}
 
+.subtitle__features{
+    display: flex;
+    justify-content: center;
+    padding: 20px; 
+}
 
+.amazing__services {
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px 20px 20px;
+    font-size: 45px;
+}
 
+.features__para {
+    padding: 10px 200px 20px 200px;
+    text-align: center;
+    color: #797171;
+    font-size: 25px;
+}
+
+.serivces__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title__services {
+    font-size: 24px;
+    font-weight: 700;
+
+}
+
+.description__services{
+    color: #79717195;
+    font-size: 18px;
+    font-weight: 500;
+}
 /* QUALITY WORK */
