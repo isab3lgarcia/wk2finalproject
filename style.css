@@ -9,6 +9,7 @@
 
 nav {
     height: 80px;
+    margin-top: 20px;
     display: flex;  
 }
 
@@ -19,6 +20,10 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+.purple {
+    color: rgb(100 21 255);
 }
 
 /* 
@@ -86,11 +91,99 @@ li {
 
 /* INTRODUCTION  */
 
+.left__intro {
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+    padding: 100px 24px;
+    height: 80px;
+}
+
 .intro__title {
-    
+    width: 100%;
+    font-size: 55px;
+}
+
+.intro__para {
+    padding: 29px 0;
+}
+
+.customer {
+    height: 30px;
+    opacity: .6;
+    padding: 4px;
+}
+
+.intro__search {
+    border-style: solid;
+    padding: 10px;
+    border-radius: 45px;
+    border-color: rgb(175, 169, 169);
+}
+
+input {
+    border-style: none;
+    color: rgb(175, 169, 169);
+    font-size: 16px;
+}
+
+.btn {
+    padding: 22px;
+    border-style: none;
+    background-color: rgb(100 21 255);
+    color: white;
+    border-radius: 60px;
+}
+
+.btn__intro{
+    margin-left: 98px;
+}
+
+h4{
+    opacity: .6;
+    margin-top: 74px;
+    padding: 8px;
+}
+
+.intro__img {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.img__intro{
+    height: 400px;
 }
 
 
+/* FEATURES */
+
+.features {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.subtitle__features {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.amazing__services{
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.features__para {
+    font-size: 18px;
+    font-weight: 500;
+    color: gray;
+    text-align: center;
+    padding: 30px 350px;
+}
 /* a {
     text-decoration: none;
     color: #242424;
