@@ -155,7 +155,6 @@ h4{
     height: 400px;
 }
 
-
 /* FEATURES */
 
 .features {
@@ -189,7 +188,7 @@ h4{
     width: calc(100/3);
     display: flex;
     flex-direction: row;
-    align-items: center;
+    
 }
 
 .services__container {
@@ -198,6 +197,7 @@ h4{
 
 .services__card{
     display: flex;
+    text-align: center;
 }
 
 .text__container {
@@ -216,6 +216,43 @@ h4{
     font-weight: 700;
     color: rgb(81, 77, 77);
     padding: 24px 4px;
+}
+/* 
+QUALITY WORK */
+
+#quality-work {
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+    padding: 100px 24px;
+    height: 80px;
+    margin-top: 100px;
+}
+
+.qual__work {
+    font-size: 21px;
+}
+
+.sub__qual--work{
+    font-size: 50px;
+    font-weight: 800;
+    margin: 9px 0;
+}
+
+.para__qual--work{
+    color: rgb(126, 118, 118);
+    font-size: 18px;
+    font-weight: 500;
+    margin: 22px 0;
+}
+
+.qw__img {
+    height: 400px;
+}
+.img__qual--work {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 /* a {
     text-decoration: none;
