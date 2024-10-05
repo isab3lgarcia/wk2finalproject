@@ -111,10 +111,16 @@ li {
 }
 
 .intro__para {
+    font-size: 18px;
     padding: 29px 0;
     word-spacing: 3px;
+    line-height: 29px;
     font-weight: 500;
-    color: rgb(124, 117, 117);
+    color: rgb(24, 24, 24);
+}
+
+.customers__title {
+    opacity: .4;
 }
 
 .customer {
@@ -128,7 +134,7 @@ li {
 }
 
 .intro__search {
-    max-width: 100%;
+    width: 90%;
     border-style: solid;
     padding: 4px;
     border-radius: 45px;
@@ -155,8 +161,8 @@ input {
 }
 
 .btn__intro{
-    width: 40%;
-    margin-left: 100px;
+    width: 30%;
+    margin-left: 130px;
     font-size: 16px;
 }
 
@@ -243,13 +249,13 @@ h4{
 /* 
 QUALITY WORK */
 
-#quality-work {
+.qw__container {
+    position: absolute;
     display: flex;
     flex-direction: column;
     width: 46%;
-    padding: 100px 24px;
     height: 80px;
-    margin-top: 100px;
+    padding: 100px 24px;
 }
 
 .qual__work {
@@ -261,6 +267,7 @@ QUALITY WORK */
     font-size: 50px;
     font-weight: 800;
     margin: 9px 0;
+    letter-spacing: 2px;
 }
 
 .para__qual--work{
@@ -268,30 +275,31 @@ QUALITY WORK */
     font-size: 18px;
     font-weight: 500;
     margin: 22px 0;
+    line-height: 29px;
+    word-spacing: 1px;
+    
+}
+
+.qw__btn {
+    width: 30%;
 }
 
 .qw__btn:hover {
     background-color: rgb(80, 21, 198);
     transition: all 300ms;
 }
-/* .qw__btn {
-
-} */
 
 .qw__img {
-    width: 46%;
+    display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: end;
+    padding: 100px 32px;
 }
 
 .img__qual--work {
     height: 400px;
-    border: 1px solid black;
-
+    border: 1px solid rgb(76, 73, 73);
 }
-
-/* ***need to fix the image */
-
 
 /* EASY TO GET STARTED */
 
