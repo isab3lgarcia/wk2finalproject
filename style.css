@@ -303,14 +303,39 @@ QUALITY WORK */
 
 /* EASY TO GET STARTED */
 
-#easy {
+.container__easy {
     margin-top: 200px;
+    display: flex;
 }
 
-.register {
-    position: relative;
+
+.easy__img{
+    justify-content: center;
 }
 
+.easy__title{
+    font-size: 16px;
+    letter-spacing: 3px;
+}
+
+.easy__sub{
+    font-size: 54px;
+    font-weight: 850;
+}
+
+.sub__easy {
+    font-size: 20px;
+    line-height: 29px;
+}
+
+.easy__steps{
+    width: 80%;
+}
+
+.easy__para {
+    color: gray;
+    line-height: 29px;
+}
 
 
 /* a {
