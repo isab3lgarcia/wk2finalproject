@@ -308,9 +308,8 @@ QUALITY WORK */
     display: flex;
 }
 
-
-.easy__img{
-    justify-content: center;
+.easy__img{ 
+    height: 380px;
 }
 
 .easy__title{
@@ -319,17 +318,17 @@ QUALITY WORK */
 }
 
 .easy__sub{
-    font-size: 54px;
+    font-size: 50px;
     font-weight: 850;
 }
 
 .sub__easy {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 29px;
 }
 
 .easy__steps{
-    width: 80%;
+    width: 85%;
 }
 
 .easy__para {
@@ -338,6 +337,18 @@ QUALITY WORK */
 }
 
 
+
+
+/* VALUES */
+
+.values__title {
+    font-size: 16px;
+    letter-spacing: 3px;
+}
+
+.values__sub{
+    font-size: 40px;
+}
 /* a {
     text-decoration: none;
     color: #242424;
