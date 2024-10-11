@@ -336,9 +336,6 @@ QUALITY WORK */
     line-height: 29px;
 }
 
-
-
-
 /* VALUES */
 
 .values__title {
@@ -348,6 +345,26 @@ QUALITY WORK */
 
 .values__sub{
     font-size: 40px;
+}
+
+.values__card{
+    display: flex;
+}
+
+.image__values{
+    height: 30px;
+    background-color: pink;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.values__sub--title {
+    font-size: 20px;
+    font-weight: 700;
+}
+.values__para{
+    font-size: 16px;
+    color: rgb(162, 149, 149);
 }
 /* a {
     text-decoration: none;
