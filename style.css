@@ -138,7 +138,7 @@ li {
     border-style: solid;
     padding: 4px;
     border-radius: 45px;
-    border-color: rgb(211, 197, 197);
+    border-color: rgba(223, 215, 215, 0.729);
 }
 
 .intro__search:hover {
@@ -148,7 +148,7 @@ li {
 
 input {
     border-style: none;
-    color: rgb(222, 215, 215);
+    color: rgba(222, 215, 215, 0.589);
     font-size: 16px;
 }
 
@@ -176,6 +176,7 @@ h4{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    padding: 100px 0;
 }
 
 .img__intro{
@@ -203,14 +204,16 @@ h4{
     font-size: 50px;
     font-weight: 800;
     text-align: center;
+    color: #243E63;
 }
 
 .features__para {
     font-size: 18px;
     font-weight: 500;
-    color: gray;
+    color: #7C8BA1;
     text-align: center;
     padding: 30px 350px;
+    line-height: 29px;
 }
 
 .services {
@@ -240,6 +243,11 @@ h4{
     padding: 4px;
 }
 
+.description__services {
+    line-height: 29px;
+    color: #7C8BA1;
+}
+
 .title__services {
     font-size: 25px;
     font-weight: 700;
@@ -255,7 +263,7 @@ QUALITY WORK */
     flex-direction: column;
     width: 46%;
     height: 80px;
-    padding: 100px 24px;
+    padding: 200px 24px;
 }
 
 .qual__work {
@@ -268,10 +276,11 @@ QUALITY WORK */
     font-weight: 800;
     margin: 9px 0;
     letter-spacing: 2px;
+    color: #243E63;
 }
 
 .para__qual--work{
-    color: rgb(126, 118, 118);
+    color: #7C8BA1;
     font-size: 18px;
     font-weight: 500;
     margin: 22px 0;
@@ -293,7 +302,8 @@ QUALITY WORK */
     display: flex;
     flex-direction: row;
     justify-content: end;
-    padding: 100px 32px;
+    padding: 200px 32px;
+    max-width: 100%;
 }
 
 .img__qual--work {
@@ -320,6 +330,7 @@ QUALITY WORK */
 .easy__sub{
     font-size: 50px;
     font-weight: 850;
+    color: #243E63;
 }
 
 .sub__easy {
@@ -338,34 +349,199 @@ QUALITY WORK */
 
 /* VALUES */
 
+.values{
+    display: flex;
+}
+
+.values__section{
+    width: 43%;
+    padding: 8px 30px;
+    margin-top: 200px;
+}
+
 .values__title {
     font-size: 16px;
     letter-spacing: 3px;
 }
 
 .values__sub{
-    font-size: 40px;
+    margin-top: 9px;
+    font-size: 50px;
+    font-weight: 800;
+    color: #243E63;
 }
 
-.values__card{
+.values__description {
+    line-height: 29px;
+    margin: 9px 0;
+    font-weight: 500;
+    color: #7C8BA1;
+}
+
+.principles__container {
+    padding: 9px 0;
+    width: 100%;
     display: flex;
 }
 
+.values__card{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img__values--container{
+   display: flex;
+   align-items: center;
+}
+
 .image__values{
-    height: 30px;
-    background-color: pink;
+    height: 40px;
+    background-color: rgb(172, 206, 172);
     border-radius: 50%;
-    padding: 2px;
+    padding: 8px;
+}
+
+.briefcase{
+    background-color: pink; 
 }
 
 .values__sub--title {
     font-size: 20px;
     font-weight: 700;
 }
+
 .values__para{
     font-size: 16px;
-    color: rgb(162, 149, 149);
+    color: #718096;
+    line-height: 29px;
+    padding: 8px 0 0 0 ;
 }
+
+.btn__values {
+    padding: 16px 24px;
+}
+
+.btn__values:hover{
+    cursor: pointer;
+    background-color: rgb(80, 21, 198);
+    transition: all 300ms;
+}
+
+.imaged__principle{
+   display: flex;
+}
+
+.principles__image{
+    max-width: 100%;
+    margin-top: 200px;
+    height: 500px;
+}
+
+/* PRICING */
+.pricing {
+    margin-top: 200px;
+}
+
+.pricing__intro--container{
+    text-align: center;
+}
+
+.pricing__title{
+    font-size: 16px;
+    letter-spacing: 3px;
+}
+
+.pricing__sub--title{
+    font-size: 50px;
+    font-weight: 800;
+    color: #243E63;
+}
+
+.pricing__description{
+    text-align: center;
+    padding: 16px 400px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #7C8BA1;
+    line-height: 29px;
+}
+
+.pricing__options{
+    margin-top: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    max-width: 100%;
+}
+
+/* FIX THIS PORTION TOO */
+
+.pricing__opts--personal, .pricing__opts--business, .pricing__opts--enterprise {
+   border: 1px solid rgb(76, 73, 73);
+   padding: 32px 0;
+   width: 33%;
+   border-radius: 2%;
+   height: 650px;
+   margin: 4px 32px;
+
+}
+
+.business {
+    background-image: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(107, 113, 193)100%);
+    color: white; 
+}
+
+.pricing__section{
+    padding: 32px 0;
+}
+
+.pricing__section--title{
+    font-size: 20px;
+}
+
+.price {
+    font-size: 50px;
+    font-weight: 700;
+    padding: 12px 0 0;
+}
+
+.price__type {
+    font-size: 18px;
+    font-weight: 700;
+    color: #A0AEC0;
+}
+
+.pricing__section--includes{
+    padding: 32px;
+}
+
+.pricing__includes--title{
+    font-size: 20px;
+}
+
+.includes__one, .includes__two, .includes__three, .includes__four {
+    font-size: 16px;
+    color: #718096;
+    padding: 32px 0 0;
+}
+
+.pricing__btn {
+    margin-top: 32px;
+    padding: 16px 60px;
+    border-style: none;
+    /* background-color: rgb(100 21 255);
+    color: white; */
+    border-radius: 60px;
+}
+
+.one__personal {
+    background-color: linear-gradient(115deg,rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+}
+
+
 /* a {
     text-decoration: none;
     color: #242424;
