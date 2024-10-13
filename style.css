@@ -477,17 +477,17 @@ QUALITY WORK */
     max-width: 100%;
 }
 
-/* FIX THIS PORTION TOO */
-
 .pricing__opts--personal, .pricing__opts--business, .pricing__opts--enterprise {
-   border: 1px solid rgb(76, 73, 73);
-   padding: 32px 0;
+   border: 1px solid rgb(237, 232, 232);
    width: 33%;
    border-radius: 2%;
    height: 650px;
    margin: 4px 32px;
-
+   padding: 0;
 }
+
+/* NEED TO CHANGE COLOR OF HR TAG FOR PERSONAL AND ENTERPRISE */
+
 
 .business {
     background-image: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(107, 113, 193)100%);
@@ -512,6 +512,7 @@ QUALITY WORK */
     font-size: 18px;
     font-weight: 700;
     color: #A0AEC0;
+    padding-top: 12px;
 }
 
 .pricing__section--includes{
@@ -528,18 +529,45 @@ QUALITY WORK */
     padding: 32px 0 0;
 }
 
+.biz {
+    color:#b2b8c0;
+}
+
+.highlight {
+    margin-bottom: 24px;
+    height: 8px;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+}
+
+.highlight__business {
+    margin-bottom: 24px;
+    height: 8px;
+}
+
 .pricing__btn {
     margin-top: 32px;
     padding: 16px 60px;
     border-style: none;
-    /* background-color: rgb(100 21 255);
-    color: white; */
     border-radius: 60px;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
 }
 
-.one__personal {
-    background-color: linear-gradient(115deg,rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+.btn__1, .highlight__personal{
+    background-image: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
 }
+
+.btn__2{
+    background-color: white;
+    color: rgb(80, 21, 198);
+}
+
+.btn__3, .highlight__enterprise{
+    background-image: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+}
+
 
 
 /* a {
