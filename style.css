@@ -570,6 +570,19 @@ QUALITY WORK */
 
 /* TESTIMONIALS */
 
+.testimonials__container{
+    display: flex;
+    margin-top: 200px;
+}
+
+.testimonials__img{
+    width: 50%;
+}
+
+.image__testimonial{
+    height: 380px;
+}
+
 .testimonial__adam{
     display: none;
 }
