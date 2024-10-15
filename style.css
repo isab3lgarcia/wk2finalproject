@@ -568,6 +568,11 @@ QUALITY WORK */
     background-image: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
 }
 
+/* TESTIMONIALS */
+
+.testimonial__adam{
+    display: none;
+}
 
 
 /* a {
