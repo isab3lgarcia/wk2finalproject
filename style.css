@@ -576,11 +576,37 @@ QUALITY WORK */
 }
 
 .testimonials__img{
-    width: 50%;
+    width: 58%;
 }
 
 .image__testimonial{
-    height: 380px;
+    height: 399px;
+    margin-top: 48px;
+}
+
+.testimonials__title {
+    font-size: 18px;
+    letter-spacing: 3px;
+    padding: 20px;
+}
+
+.testimonials__sub--title{
+    font-size: 45px;
+    font-weight: 800;
+    color: #243E63;
+    padding-bottom: 20px;
+}
+
+.testimonials__para{
+    color: #718096;
+    font-size: 20px;
+    padding-bottom: 20px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+.fa-star{
+    color: rgb(246, 173, 85);
 }
 
 .testimonial__adam{
