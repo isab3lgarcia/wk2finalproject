@@ -605,6 +605,10 @@ QUALITY WORK */
     font-weight: 500;
 }
 
+.stars{
+    padding-bottom: 20px;     
+}
+
 .fa-star{
     color: rgb(246, 173, 85);
 }
