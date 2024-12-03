@@ -591,25 +591,26 @@ QUALITY WORK */
 }
 
 .testimonials__sub--title{
-    font-size: 45px;
-    font-weight: 800;
+    font-size: 50px;
+    font-weight: 850;
     color: #243E63;
     padding-bottom: 20px;
 }
 
 .testimonials__para{
     color: #718096;
-    font-size: 20px;
+    font-size: 18px;
     padding-bottom: 20px;
     line-height: 1.5;
     font-weight: 500;
 }
 
 .stars{
-    padding-bottom: 20px;     
+    padding-bottom: 20px;  
 }
 
 .fa-star{
+    padding-left: none;   
     color: rgb(246, 173, 85);
 }
 
