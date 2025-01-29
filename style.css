@@ -569,7 +569,6 @@ QUALITY WORK */
 }
 
 /* TESTIMONIALS */
-
 .testimonials__container{
     display: flex;
     margin-top: 200px;
@@ -607,10 +606,11 @@ QUALITY WORK */
 
 .stars{
     padding-bottom: 20px;  
+    padding: none;
 }
 
-.fa-star{
-    padding-left: none;   
+.star{
+    padding: 0 0 0;   
     color: rgb(246, 173, 85);
 }
 
@@ -619,6 +619,22 @@ QUALITY WORK */
 }
 
 
+/* CONTAINER BOX */
+.container__box {
+    background-color: rgb(100 21 255);
+    width: 100%;
+    height: 100%;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.box__para{
+    color: white;
+    font-size: 32px;
+    font-weight: 650;
+    width: 58%;
+    padding: 95px 80px 45px 32px;
+}
 /* a {
     text-decoration: none;
     color: #242424;
